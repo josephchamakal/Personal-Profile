@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joseph Ekai Chamakal - Portfolio</title>
+    <meta
+      name="description"
+      content="Joseph Ekai Chamakal Experienced Software Engineer specializing in Web Developer, Mobile apps, and Machine learning, Based in Kenya"
+    />
+    <meta
+      name="keywords"
+      content="Software Engineer, Web Developer, Flutter developer,Kenya,Full-stack developer"
+    />
+    <meta name="author" content="Joseph Ekai" />
+
+    <meta
+      property="og:title"
+      content="Joseph Ekai Chamakal | Software engineer"
+    />
+    <meta
+      property="og:description"
+      content="Building innovative software solutions with expertise in React,Flutter, and Backend technologies."
+    />
+    <meta property="og:type" content="Software" />
+    <!-- i will provide image path and url link -->
+    <meta property="og:image" content="https://josephekai.dev/profile.png" />
+    <meta property="og:url" content="https://josephekai.dev" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favIcon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lucide-icons@latest/dist/umd/lucide.min.js"
+    />
+  </head>
+
+  <body>
+    <!-- Header / Navbar -->
+    <header id="header">
+      <div class="container">
+        <a href="#home" class="logo">JEC<span>.</span></a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <a href="#home" class="nav-link"> Home</a>
+          <a href="#about" class="nav-link"><span>01.</span> About</a>
+          <a href="#skills" class="nav-link"><span>02.</span> Skills</a>
+          <a href="#portfolio" class="nav-link"><span>03.</span> Portfolio</a>
+          <a href="#contact" class="nav-link"><span>04.</span> Contact</a>
+          <a
+            href="/Joseph_Ekai_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+            >Resume</a
+          >
+        </nav>
+        <nav id="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills"> Skills</a>
+            </li>
+            <li>
+              <a href="#portfolio"> Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact"> Contact</a>
+            </li>
+          </ul>
+
+          <button class="icon" id="toggle">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="intro animate-item">Hi, my name is</p>
+            <h1 class="animate-item delay-1 MyName">
+              Joseph Ekai <span>Chamakal.</span>
+            </h1>
+            <h2 class="animate-item delay-2">Turning ideas into reality.</h2>
+            <p class="description animate-item delay-3">
+              I'm a passionate Web Developer, Software Engineer, Blender
+              Designer, Database Architect, Coder, Data Analyst, and Machine
+              Learning Expert.<br />
+              With a deep love for technology and problem-solving, I build
+              smart, efficient, and scalable solutions for businesses and
+              individuals. Whether you're looking for an intuitive web
+              application, data-driven insights, machine learning solutions, or
+              App Development skills, you're in the right place!
+            </p>
+            <div class="animate-item delay-4">
+              <button
+                class="btn btn-primary"
+                onclick="scrollToSection('portfolio')"
+              >
+                View My Work
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="arrow-right"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+              <a
+                href="/Joseph_Ekai_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline btn-mobile-view"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="right"></div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-heading animate-on-scroll">
+            <span>01.</span> About Me
+          </h2>
+
+          <div class="about-content">
+            <div class="about-text">
+              <div class="animate-on-scroll delay-1">
+                <p>
+                  I am a tech enthusiast with expertise spanning multiple
+                  disciplines, including full-stack web development, AI &
+                  machine learning, 3D design, database architecture, and App
+                  Development. With years of experience, I have helped
+                  businesses transform their ideas into reality through powerful
+                  software solutions.
+                </p>
+                <p>
+                  My experience with various programming languages and
+                  frameworks allows me to select the right tools for each
+                  project. My journey in tech started with an insatiable
+                  curiosity for coding and how digital systems work and creating
+                  solutions that make a difference.
+                </p>
+
+                <p>
+                  Over the years, I have honed my skills to create seamless user
+                  experiences, intelligent algorithms, and optimized data
+                  structures.I'm also proficient in 3D design using Blender,
+                  creating visual assets for various applications.
+                </p>
+              </div>
+
+              <div class="technologies animate-on-scroll delay-2">
+                <h3>My Passion:</h3>
+                <div class="tech-lists">
+                  <div class="items">
+                    <p>Developing cutting-edge web applications</p>
+                    <p>
+                      Implementing machine learning models for predictive
+                      analytics
+                    </p>
+                    <p>Designing immersive 3D models in Blender</p>
+                    <p>
+                      Architecting robust databases for scalable applications
+                    </p>
+                    <p>Data Preprocessing & Feature Engineering</p>
+                  </div>
+                  <p>Let's build something amazing together!</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-image animate-on-scroll delay-3">
+              <div class="image-wrapper">
+                <div class="circularBg"></div>
+                <div>
+                  <img src="assets/images/Profile.png" alt="My Profile pic" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="section-heading"><span>02.</span> Skills & Expertise</h2>
+
+          <div class="skills-grid">
+            <!-- Skills cards will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="section-heading"><span>03.</span> My Portfolio</h2>
+
+          <div class="portfolio-filter">
+            <!-- Filter buttons will be inserted here by JavaScript -->
+          </div>
+
+          <div class="portfolio-grid">
+            <!-- Project cards will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-heading"><span>04.</span> Get In Touch</h2>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <p>Have a project in mind? Let's collaborate!</p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <path d="m22 6-10 7L2 6"></path>
+                  </svg>
+                  <a href="mailto:josephchamakal1999@gmail.com">Email me</a>
+                </div>
+                <div class="contact-item">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="icon"
+                  >
+                    <path
+                      d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Nakuru, Kenya</span>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="www.linkedin.com/josephekhai" aria-label="LinkedIn">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <a href="www.github.com/josephchamakal" aria-label="GitHub">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    ></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                </a>
+                <a href="#" aria-label="Twitter">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m22 2-7 20-4-9-9-4Z"></path>
+                  <path d="M22 2 11 13"></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" class="logo">JEC<span>.</span></a>
+          <div class="copyright">
+            &copy; <span id="current-year"></span> Joseph Ekai Chamakal. All
+            rights reserved.
+          </div>
+          <div class="footer-note">
+            <p>Built with passion and code</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scroll-to-top" aria-label="Scroll to top">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="m18 15-6-6-6 6"></path>
+      </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script defer src="script.js"></script>
+  </body>
+</html>
